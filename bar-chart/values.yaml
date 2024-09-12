@@ -1,1 +1,1 @@
-deploymentName: "bar"
+deploymentName: "{{ vault://awssecretsmanager/prod/secret#deploymentName }}"
